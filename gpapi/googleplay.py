@@ -63,7 +63,7 @@ class GooglePlayAPI(object):
     Usual APIs methods are login(), search(), details(), bulkDetails(),
     download(), browse(), reviews() and list()."""
 
-    def __init__(self, locale, timezone, device_codename='bacon',
+    def __init__(self, locale, timezone, device_codename='herolte',
                  proxies_config=None):
         self.authSubToken = None
         self.gsfId = None
